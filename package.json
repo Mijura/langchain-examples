@@ -1,0 +1,20 @@
+{
+  "name": "langchain-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc index.ts",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/core": "^0.3.30",
+    "@langchain/langgraph": "^0.2.40"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}

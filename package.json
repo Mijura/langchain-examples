@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc index.ts",
-    "start": "node index.js"
+    "build": "tsc input_output_annotation/index.ts",
+    "start": "node input_output_annotation/index.js"
   },
   "keywords": [],
   "author": "",

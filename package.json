@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc 2_conditional_edges_example/index.ts",
-    "start": "node 2_conditional_edges_example/index.js"
+    "build": "tsc 3_tool_example/index.ts",
+    "start": "node 3_tool_example/index.js"
   },
   "keywords": [],
   "author": "",

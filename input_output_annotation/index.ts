@@ -8,7 +8,7 @@ const OutputAnnotation = Annotation.Root({
   answer: Annotation<string>,
 });
 
-const answerNode = (_state: typeof InputAnnotation.State) => {
+const answerNode = () => {
   return { answer: "bye" };
 };
 

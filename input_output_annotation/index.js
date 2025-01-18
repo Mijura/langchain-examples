@@ -43,7 +43,7 @@ var InputAnnotation = langgraph_1.Annotation.Root({
 var OutputAnnotation = langgraph_1.Annotation.Root({
     answer: (langgraph_1.Annotation),
 });
-var answerNode = function (_state) {
+var answerNode = function () {
     return { answer: "bye" };
 };
 var graph = new langgraph_1.StateGraph({
